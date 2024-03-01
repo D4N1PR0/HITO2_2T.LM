@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Pedidos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Pedidos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Número de Pedido</th>
+      <th>Fecha de Compra</th>
+      <th>Fecha de Entrega</th>
+      <th>Total de Factura</th>
+       <!-- <th>Producto</th>
+      <th>Referencia</th>
+      <th>Precio</th>
+      <th>Unidades</th>
+      <th>Nombre del Cliente</th>
+      <th>Apellidos del Cliente</th>
+      <th>Teléfono del Cliente</th>
+      <th>Dirección del Cliente</th>
+      <th>Email del Cliente</th> -->
+    </tr>
+  </thead>
+  <tbody id="cuerpoTabla">
+    <!-- Los datos de la tabla se cargarán aquí desde JavaScript -->
+  </tbody>
+</table>
+
+<script>
+  
+    // Cargar el archivo XML
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        alert(this.status);
+        if (this.readyState == 4 && this.status == 200) {
+            
+            mostrarTabla(this);
+        }
+    };
+    xhttp.open('GET', 'Pedidos.xml', true);
+    xhttp.send();
+
+    function mostrarTabla(xml) {
+        var xmlDoc = xml.responseXML;
+        var pedidos = xmlDoc.getElementsByTagName("Pedido");
+        var tabla = document.getElementById("cuerpoTabla");
+
+        for (var i = 0; i < pedidos.length; i++) {
+            var pedido = pedidos[i];
+            var numeroPedido = pedido.getElementsByTagName("NumeroPedido")[0].textContent;
+            var fechaCompra = pedido.getElementsByTagName("FechaCompra")[0].textContent;
+            var fechaEntrega = pedido.getElementsByTagName("FechaEntrega")[0].textContent;
+            var totalFactura = pedido.getElementsByTagName("TotalFactura")[0].textContent;
+           /* var producto = pedido.getElementsByTagName("NombreProducto")[0].textContent;
+            var referencia = pedido.getElementsByTagName("Referencia")[0].textContent;
+            var precio = pedido.getElementsByTagName("Precio")[0].textContent;
+            var unidades = pedido.getElementsByTagName("Unidades")[0].textContent;
+            var nombreCliente = pedido.getElementsByTagName("Nombre")[0].textContent;
+            var apellidosCliente = pedido.getElementsByTagName("Apellidos")[0].textContent;
+            var telefonoCliente = pedido.getElementsByTagName("Telefono")[0].textContent;
+            var direccionCliente = pedido.getElementsByTagName("Dirección")[0];
+            var calle = direccionCliente.getElementsByTagName("Calle")[0].textContent;
+            var ciudad = direccionCliente.getElementsByTagName("Ciudad")[0].textContent;
+            var cPostal = direccionCliente.getElementsByTagName("CPostal")[0].textContent;
+            var provincia = direccionCliente.getElementsByTagName("Provincia")[0].textContent;
+            var emailCliente = pedido.getElementsByTagName("Email")[0].textContent;*/
+
+            var fila = "<tr>";
+            fila += "<td>" + numeroPedido + "</td>";
+            fila += "<td>" + fechaCompra + "</td>";
+            fila += "<td>" + fechaEntrega + "</td>";
+            fila += "<td>" + totalFactura + "</td>";
+           /* fila += "<td>" + producto + "</td>";
+            fila += "<td>" + referencia + "</td>";
+            fila += "<td>" + precio + "</td>";
+            fila += "<td>" + unidades + "</td>";
+            fila += "<td>" + nombreCliente + "</td>";
+            fila += "<td>" + apellidosCliente + "</td>";
+            fila += "<td>" + telefonoCliente + "</td>";
+            fila += "<td>" + calle + ", " + ciudad + ", " + cPostal + ", " + provincia + "</td>";
+            fila += "<td>" + emailCliente + "</td>";*/
+            fila += "</tr>";
+
+            tabla.innerHTML += fila;
+        }
+    }
+</script>
+
+</body>
+</html>

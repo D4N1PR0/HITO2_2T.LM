@@ -1,0 +1,23 @@
+<!ELEMENT Pedidos (Pedido+)>
+<!ELEMENT Pedido (NumeroPedido, FechaCompra, FechaEntrega, TotalFactura, Producto, Clientes)>
+<!ELEMENT NumeroPedido (#PCDATA)>
+<!ELEMENT FechaCompra (#PCDATA)>
+<!ELEMENT FechaEntrega (#PCDATA)>
+<!ELEMENT TotalFactura (#PCDATA)>
+<!ELEMENT Producto (NombreProducto, Referencia, Precio, Unidades)>
+<!ELEMENT NombreProducto (#PCDATA)>
+<!ELEMENT Referencia (#PCDATA)>
+<!ELEMENT Precio (#PCDATA)>
+<!ELEMENT Unidades (#PCDATA)>
+<!ELEMENT Clientes (DatosPersonales)>
+<!ELEMENT DatosPersonales (Nombre, Apellidos, Telefono, Direccion, FechaInclusion, Email)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)>
+<!ELEMENT Direccion (Calle, Ciudad, CPostal, Provincia)>
+<!ELEMENT Calle (#PCDATA)>
+<!ELEMENT Ciudad (#PCDATA)>
+<!ELEMENT CPostal (#PCDATA)>
+<!ELEMENT Provincia (#PCDATA)>
+<!ELEMENT FechaInclusion (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>

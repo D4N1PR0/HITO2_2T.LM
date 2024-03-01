@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Pedidos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Pedido" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pedido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NumeroPedido" type="xs:string"/>
+        <xs:element name="FechaCompra" type="xs:string"/>
+        <xs:element name="FechaEntrega" type="xs:string"/>
+        <xs:element name="TotalFactura" type="xs:string"/>
+        <xs:element ref="Producto"/>
+        <xs:element ref="Clientes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Producto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NombreProducto" type="xs:string"/>
+        <xs:element name="Referencia" type="xs:string"/>
+        <xs:element name="Precio" type="xs:string"/>
+        <xs:element name="Unidades" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DatosPersonales"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DatosPersonales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Nombre" type="xs:string"/>
+        <xs:element name="Apellidos" type="xs:string"/>
+        <xs:element name="Telefono" type="xs:string"/>
+        <xs:element ref="Direccion"/>
+        <xs:element name="FechaInclusion" type="xs:string"/>
+        <xs:element name="Email" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Direccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Calle" type="xs:string"/>
+        <xs:element name="Ciudad" type="xs:string"/>
+        <xs:element name="CPostal" type="xs:string"/>
+        <xs:element name="Provincia" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

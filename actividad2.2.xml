@@ -1,0 +1,2204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="transformaciones2.xslt"?>
+<Pedidos>
+  <!-- primer trimestre de2021 -->
+    <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2021-01-05</FechaCompra>
+    <FechaEntrega>2021-01-10</FechaEntrega>
+    <TotalFactura>99.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Zapatos de running Nike Air Zoom Pegasus 37</NombreProducto>
+      <Referencia>NKZP001</Referencia>
+      <Precio>119.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2021-02-15</FechaCompra>
+    <FechaEntrega>2021-02-20</FechaEntrega>
+    <TotalFactura>329.95</TotalFactura>
+    <Producto>
+      <NombreProducto>iPhone 12 Pro Max 256GB</NombreProducto>
+      <Referencia>IPH001</Referencia>
+      <Precio>1299.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2021-03-05</FechaCompra>
+    <FechaEntrega>2021-03-10</FechaEntrega>
+    <TotalFactura>89.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Levi's 501 Original Fit Jeans</NombreProducto>
+      <Referencia>LVS001</Referencia>
+      <Precio>89.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2021-03-20</FechaCompra>
+    <FechaEntrega>2021-03-25</FechaEntrega>
+    <TotalFactura>229.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Samsung Galaxy Watch 3</NombreProducto>
+      <Referencia>SMW001</Referencia>
+      <Precio>229.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2021-03-30</FechaCompra>
+    <FechaEntrega>2021-04-04</FechaEntrega>
+    <TotalFactura>799.00</TotalFactura>
+    <Producto>
+      <NombreProducto>PlayStation 5</NombreProducto>
+      <Referencia>PS5001</Referencia>
+      <Precio>799.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2021-01-10</FechaCompra>
+    <FechaEntrega>2021-01-15</FechaEntrega>
+    <TotalFactura>149.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Camisa Ralph Lauren Classic Fit</NombreProducto>
+      <Referencia>RAL001</Referencia>
+      <Precio>149.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2021-01-20</FechaCompra>
+    <FechaEntrega>2021-01-25</FechaEntrega>
+    <TotalFactura>499.00</TotalFactura>
+    <Producto>
+      <NombreProducto>MacBook Air M1</NombreProducto>
+      <Referencia>MAC001</Referencia>
+      <Precio>999.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2021-02-01</FechaCompra>
+    <FechaEntrega>2021-02-06</FechaEntrega>
+    <TotalFactura>299.95</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose QuietComfort 35 II</NombreProducto>
+      <Referencia>BQC001</Referencia>
+      <Precio>299.95</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2021-02-10</FechaCompra>
+    <FechaEntrega>2021-02-15</FechaEntrega>
+    <TotalFactura>399.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony WH-1000XM4</NombreProducto>
+      <Referencia>SNY001</Referencia>
+      <Precio>399.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2021-03-10</FechaCompra>
+    <FechaEntrega>2021-03-15</FechaEntrega>
+    <TotalFactura>699.00</TotalFactura>
+    <Producto>
+      <NombreProducto>LG OLED CX 55"</NombreProducto>
+      <Referencia>LGO001</Referencia>
+      <Precio>699.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+   <!-- segundo trimestre de 2021 -->
+
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2021-04-05</FechaCompra>
+    <FechaEntrega>2021-04-10</FechaEntrega>
+    <TotalFactura>79.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Samsung Galaxy Buds+</NombreProducto>
+      <Referencia>SMG001</Referencia>
+      <Precio>79.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2021-05-15</FechaCompra>
+    <FechaEntrega>2021-05-20</FechaEntrega>
+    <TotalFactura>379.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple Watch Series 6</NombreProducto>
+      <Referencia>APW001</Referencia>
+      <Precio>379.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2021-06-05</FechaCompra>
+    <FechaEntrega>2021-06-10</FechaEntrega>
+    <TotalFactura>299.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose SoundLink Revolve+</NombreProducto>
+      <Referencia>BOS001</Referencia>
+      <Precio>299.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2021-06-20</FechaCompra>
+    <FechaEntrega>2021-06-25</FechaEntrega>
+    <TotalFactura>899.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony A8 55" OLED TV</NombreProducto>
+      <Referencia>SON001</Referencia>
+      <Precio>899.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2021-06-30</FechaCompra>
+    <FechaEntrega>2021-07-05</FechaEntrega>
+    <TotalFactura>449.00</TotalFactura>
+    <Producto>
+      <NombreProducto>GoPro HERO9 Black</NombreProducto>
+      <Referencia>GPR001</Referencia>
+      <Precio>449.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2021-04-10</FechaCompra>
+    <FechaEntrega>2021-04-15</FechaEntrega>
+    <TotalFactura>199.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Fitbit Charge 4</NombreProducto>
+      <Referencia>FTB001</Referencia>
+      <Precio>199.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2021-04-20</FechaCompra>
+    <FechaEntrega>2021-04-25</FechaEntrega>
+    <TotalFactura>599.00</TotalFactura>
+    <Producto>
+      <NombreProducto>DJI Mavic Air 2</NombreProducto>
+      <Referencia>DJI001</Referencia>
+      <Precio>599.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2021-05-01</FechaCompra>
+    <FechaEntrega>2021-05-06</FechaEntrega>
+    <TotalFactura>249.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Amazon Echo Dot (4th Gen)</NombreProducto>
+      <Referencia>AMB001</Referencia>
+      <Precio>249.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2021-05-10</FechaCompra>
+    <FechaEntrega>2021-05-15</FechaEntrega>
+    <TotalFactura>149.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Roku Streaming Stick+</NombreProducto>
+      <Referencia>ROK001</Referencia>
+      <Precio>149.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2021-06-10</FechaCompra>
+    <FechaEntrega>2021-06-15</FechaEntrega>
+    <TotalFactura>399.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose QuietComfort Earbuds</NombreProducto>
+      <Referencia>BQE001</Referencia>
+      <Precio>399.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+   <!-- tercer trimestre de 2021  -->
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2021-07-05</FechaCompra>
+    <FechaEntrega>2021-07-10</FechaEntrega>
+    <TotalFactura>129.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Fitbit Versa 3</NombreProducto>
+      <Referencia>FTB002</Referencia>
+      <Precio>229.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2021-07-15</FechaCompra>
+    <FechaEntrega>2021-07-20</FechaEntrega>
+    <TotalFactura>499.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Canon EOS R6</NombreProducto>
+      <Referencia>CAN001</Referencia>
+      <Precio>2499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2021-08-05</FechaCompra>
+    <FechaEntrega>2021-08-10</FechaEntrega>
+    <TotalFactura>199.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Instant Pot Duo Nova</NombreProducto>
+      <Referencia>INS001</Referencia>
+      <Precio>199.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2021-08-20</FechaCompra>
+    <FechaEntrega>2021-08-25</FechaEntrega>
+    <TotalFactura>749.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Microsoft Surface Laptop 4</NombreProducto>
+      <Referencia>MSF001</Referencia>
+      <Precio>749.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2021-08-30</FechaCompra>
+    <FechaEntrega>2021-09-04</FechaEntrega>
+    <TotalFactura>199.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Google Nest Hub</NombreProducto>
+      <Referencia>GOO001</Referencia>
+      <Precio>199.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2021-07-10</FechaCompra>
+    <FechaEntrega>2021-07-15</FechaEntrega>
+    <TotalFactura>179.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Logitech MX Master 3</NombreProducto>
+      <Referencia>LGT001</Referencia>
+      <Precio>179.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2021-07-20</FechaCompra>
+    <FechaEntrega>2021-07-25</FechaEntrega>
+    <TotalFactura>349.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple AirPods Pro</NombreProducto>
+      <Referencia>AAP001</Referencia>
+      <Precio>349.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2021-08-01</FechaCompra>
+    <FechaEntrega>2021-08-06</FechaEntrega>
+    <TotalFactura>699.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Samsung Q80T 55" QLED TV</NombreProducto>
+      <Referencia>SMG002</Referencia>
+      <Precio>699.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2021-08-10</FechaCompra>
+    <FechaEntrega>2021-08-15</FechaEntrega>
+    <TotalFactura>249.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Razer DeathAdder V2</NombreProducto>
+      <Referencia>RZR001</Referencia>
+      <Precio>249.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2021-09-10</FechaCompra>
+    <FechaEntrega>2021-09-15</FechaEntrega>
+    <TotalFactura>199.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Anker Soundcore Liberty Air 2 Pro</NombreProducto>
+      <Referencia>ANK001</Referencia>
+      <Precio>199.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+   <!-- cuarto trimestre de 2021 -->
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2021-10-05</FechaCompra>
+    <FechaEntrega>2021-10-10</FechaEntrega>
+    <TotalFactura>299.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple AirPods (3rd Gen)</NombreProducto>
+      <Referencia>AAP002</Referencia>
+      <Precio>299.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2021-10-15</FechaCompra>
+    <FechaEntrega>2021-10-20</FechaEntrega>
+    <TotalFactura>499.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony WH-1000XM4</NombreProducto>
+      <Referencia>SNY001</Referencia>
+      <Precio>499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2021-11-05</FechaCompra>
+    <FechaEntrega>2021-11-10</FechaEntrega>
+    <TotalFactura>599.99</TotalFactura>
+    <Producto>
+      <NombreProducto>PlayStation 5</NombreProducto>
+      <Referencia>PLY001</Referencia>
+      <Precio>599.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2021-11-20</FechaCompra>
+    <FechaEntrega>2021-11-25</FechaEntrega>
+    <TotalFactura>899.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Xbox Series X</NombreProducto>
+      <Referencia>XBX001</Referencia>
+      <Precio>899.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2021-12-01</FechaCompra>
+    <FechaEntrega>2021-12-06</FechaEntrega>
+    <TotalFactura>379.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Amazon Kindle Oasis</NombreProducto>
+      <Referencia>AMZ001</Referencia>
+      <Precio>379.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2021-10-10</FechaCompra>
+    <FechaEntrega>2021-10-15</FechaEntrega>
+    <TotalFactura>249.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Fitbit Luxe</NombreProducto>
+      <Referencia>FTB003</Referencia>
+      <Precio>249.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2021-10-20</FechaCompra>
+    <FechaEntrega>2021-10-25</FechaEntrega>
+    <TotalFactura>349.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple Watch Series 7</NombreProducto>
+      <Referencia>AAP003</Referencia>
+      <Precio>349.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2021-11-01</FechaCompra>
+    <FechaEntrega>2021-11-06</FechaEntrega>
+    <TotalFactura>799.00</TotalFactura>
+    <Producto>
+      <NombreProducto>LG OLED C1 55" 4K TV</NombreProducto>
+      <Referencia>LGO001</Referencia>
+      <Precio>799.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2021-11-10</FechaCompra>
+    <FechaEntrega>2021-11-15</FechaEntrega>
+    <TotalFactura>299.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose SoundLink Revolve+</NombreProducto>
+      <Referencia>BSE001</Referencia>
+      <Precio>299.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2021-12-10</FechaCompra>
+    <FechaEntrega>2021-12-15</FechaEntrega>
+    <TotalFactura>179.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Logitech G Pro X Wireless</NombreProducto>
+      <Referencia>LGT002</Referencia>
+      <Precio>179.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+   <!-- Primer trimestre 2022 -->
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2022-01-05</FechaCompra>
+    <FechaEntrega>2022-01-10</FechaEntrega>
+    <TotalFactura>349.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple iPhone 13</NombreProducto>
+      <Referencia>AAP004</Referencia>
+      <Precio>1099.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2022-01-15</FechaCompra>
+    <FechaEntrega>2022-01-20</FechaEntrega>
+    <TotalFactura>999.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Samsung Galaxy S21 Ultra</NombreProducto>
+      <Referencia>SMG003</Referencia>
+      <Precio>1299.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2022-02-05</FechaCompra>
+    <FechaEntrega>2022-02-10</FechaEntrega>
+    <TotalFactura>799.99</TotalFactura>
+    <Producto>
+      <NombreProducto>DJI Mini 2</NombreProducto>
+      <Referencia>DJI001</Referencia>
+      <Precio>449.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2022-02-20</FechaCompra>
+    <FechaEntrega>2022-02-25</FechaEntrega>
+    <TotalFactura>699.00</TotalFactura>
+    <Producto>
+      <NombreProducto>GoPro HERO9 Black</NombreProducto>
+      <Referencia>GPR001</Referencia>
+      <Precio>449.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2022-03-01</FechaCompra>
+    <FechaEntrega>2022-03-06</FechaEntrega>
+    <TotalFactura>179.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Logitech G502 HERO</NombreProducto>
+      <Referencia>LGT003</Referencia>
+      <Precio>79.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2022-01-10</FechaCompra>
+    <FechaEntrega>2022-01-15</FechaEntrega>
+    <TotalFactura>449.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Microsoft Surface Pro 8</NombreProducto>
+      <Referencia>MSF002</Referencia>
+      <Precio>1299.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2022-01-20</FechaCompra>
+    <FechaEntrega>2022-01-25</FechaEntrega>
+    <TotalFactura>649.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Canon EOS R6</NombreProducto>
+      <Referencia>CAN002</Referencia>
+      <Precio>2499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2022-02-01</FechaCompra>
+    <FechaEntrega>2022-02-06</FechaEntrega>
+    <TotalFactura>279.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose Noise Cancelling Headphones 700</NombreProducto>
+      <Referencia>BSE002</Referencia>
+      <Precio>379.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2022-02-10</FechaCompra>
+    <FechaEntrega>2022-02-15</FechaEntrega>
+    <TotalFactura>499.00</TotalFactura>
+    <Producto>
+      <NombreProducto>GoPro MAX</NombreProducto>
+      <Referencia>GPR002</Referencia>
+      <Precio>499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2022-03-10</FechaCompra>
+    <FechaEntrega>2022-03-15</FechaEntrega>
+    <TotalFactura>159.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Raspberry Pi 4 Model B</NombreProducto>
+      <Referencia>RSP001</Referencia>
+      <Precio>159.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+    <!-- segundo trimestre 2022 -->
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2022-04-05</FechaCompra>
+    <FechaEntrega>2022-04-10</FechaEntrega>
+    <TotalFactura>599.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple MacBook Pro 14"</NombreProducto>
+      <Referencia>AAP005</Referencia>
+      <Precio>1999.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2022-04-15</FechaCompra>
+    <FechaEntrega>2022-04-20</FechaEntrega>
+    <TotalFactura>299.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Fitbit Versa 3</NombreProducto>
+      <Referencia>FTB004</Referencia>
+      <Precio>229.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2022-05-05</FechaCompra>
+    <FechaEntrega>2022-05-10</FechaEntrega>
+    <TotalFactura>399.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony PlayStation 5</NombreProducto>
+      <Referencia>SNY002</Referencia>
+      <Precio>499.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2022-05-20</FechaCompra>
+    <FechaEntrega>2022-05-25</FechaEntrega>
+    <TotalFactura>279.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Logitech MX Master 3</NombreProducto>
+      <Referencia>LGT004</Referencia>
+      <Precio>99.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2022-06-01</FechaCompra>
+    <FechaEntrega>2022-06-06</FechaEntrega>
+    <TotalFactura>549.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Google Pixel 6 Pro</NombreProducto>
+      <Referencia>GGL001</Referencia>
+      <Precio>1099.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2022-04-10</FechaCompra>
+    <FechaEntrega>2022-04-15</FechaEntrega>
+    <TotalFactura>899.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony A7 IV</NombreProducto>
+      <Referencia>SNY003</Referencia>
+      <Precio>2499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2022-04-20</FechaCompra>
+    <FechaEntrega>2022-04-25</FechaEntrega>
+    <TotalFactura>399.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Canon EOS R5</NombreProducto>
+      <Referencia>CAN003</Referencia>
+      <Precio>3799.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2022-05-01</FechaCompra>
+    <FechaEntrega>2022-05-06</FechaEntrega>
+    <TotalFactura>349.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose QuietComfort Earbuds</NombreProducto>
+      <Referencia>BSE003</Referencia>
+      <Precio>279.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2022-05-10</FechaCompra>
+    <FechaEntrega>2022-05-15</FechaEntrega>
+    <TotalFactura>179.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Raspberry Pi 400</NombreProducto>
+      <Referencia>RSP002</Referencia>
+      <Precio>179.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2022-06-10</FechaCompra>
+    <FechaEntrega>2022-06-15</FechaEntrega>
+    <TotalFactura>799.00</TotalFactura>
+    <Producto>
+      <NombreProducto>LG OLED C1 65" 4K TV</NombreProducto>
+      <Referencia>LGO002</Referencia>
+      <Precio>1999.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+   <!-- tercero trimestre 2022 -->
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2022-07-05</FechaCompra>
+    <FechaEntrega>2022-07-10</FechaEntrega>
+    <TotalFactura>699.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple Watch Series 7</NombreProducto>
+      <Referencia>AAP006</Referencia>
+      <Precio>399.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2022-07-15</FechaCompra>
+    <FechaEntrega>2022-07-20</FechaEntrega>
+    <TotalFactura>499.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Amazon Echo Show 10</NombreProducto>
+      <Referencia>AMB004</Referencia>
+      <Precio>249.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2022-08-05</FechaCompra>
+    <FechaEntrega>2022-08-10</FechaEntrega>
+    <TotalFactura>349.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose SoundLink Color II</NombreProducto>
+      <Referencia>BSE004</Referencia>
+      <Precio>129.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2022-08-20</FechaCompra>
+    <FechaEntrega>2022-08-25</FechaEntrega>
+    <TotalFactura>449.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Fitbit Charge 5</NombreProducto>
+      <Referencia>FTB005</Referencia>
+      <Precio>179.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2022-09-01</FechaCompra>
+    <FechaEntrega>2022-09-06</FechaEntrega>
+    <TotalFactura>799.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Samsung QLED Q90A 65" TV</NombreProducto>
+      <Referencia>SMG004</Referencia>
+      <Precio>1999.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2022-07-10</FechaCompra>
+    <FechaEntrega>2022-07-15</FechaEntrega>
+    <TotalFactura>999.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Nintendo Switch OLED</NombreProducto>
+      <Referencia>NTD002</Referencia>
+      <Precio>349.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2022-07-20</FechaCompra>
+    <FechaEntrega>2022-07-25</FechaEntrega>
+    <TotalFactura>699.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Canon EOS R6</NombreProducto>
+      <Referencia>CAN002</Referencia>
+      <Precio>2499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2022-08-01</FechaCompra>
+    <FechaEntrega>2022-08-06</FechaEntrega>
+    <TotalFactura>479.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Bose Noise Cancelling Headphones 700</NombreProducto>
+      <Referencia>BSE002</Referencia>
+      <Precio>379.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2022-08-10</FechaCompra>
+    <FechaEntrega>2022-08-15</FechaEntrega>
+    <TotalFactura>499.00</TotalFactura>
+    <Producto>
+      <NombreProducto>GoPro MAX</NombreProducto>
+      <Referencia>GPR002</Referencia>
+      <Precio>499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2022-09-10</FechaCompra>
+    <FechaEntrega>2022-09-15</FechaEntrega>
+    <TotalFactura>159.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Raspberry Pi 4 Model B</NombreProducto>
+      <Referencia>RSP001</Referencia>
+      <Precio>159.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+
+  <!-- cuarto trimestre 2022 -->
+
+  <!-- Pedidos recurrentes -->
+  <Pedido>
+    <NumeroPedido>1001</NumeroPedido>
+    <FechaCompra>2022-10-05</FechaCompra>
+    <FechaEntrega>2022-10-10</FechaEntrega>
+    <TotalFactura>799.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Apple iPhone 13 Pro</NombreProducto>
+      <Referencia>AAP007</Referencia>
+      <Precio>999.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Luis</Nombre>
+        <Apellidos>Gómez Pérez</Apellidos>
+        <Telefono>987654321</Telefono>
+        <Direccion>
+          <Calle>Calle del Sol, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28001</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-20</FechaInclusion>
+        <Email>luis.gomez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1002</NumeroPedido>
+    <FechaCompra>2022-10-15</FechaCompra>
+    <FechaEntrega>2022-10-20</FechaEntrega>
+    <TotalFactura>599.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Google Pixel 6</NombreProducto>
+      <Referencia>GGL002</Referencia>
+      <Precio>699.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Ana</Nombre>
+        <Apellidos>Ruiz Martínez</Apellidos>
+        <Telefono>123456789</Telefono>
+        <Direccion>
+          <Calle>Avda. de la Paz, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08002</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-25</FechaInclusion>
+        <Email>ana.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1003</NumeroPedido>
+    <FechaCompra>2022-11-05</FechaCompra>
+    <FechaEntrega>2022-11-10</FechaEntrega>
+    <TotalFactura>799.99</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony WH-1000XM4</NombreProducto>
+      <Referencia>SNY004</Referencia>
+      <Precio>349.99</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Miguel</Nombre>
+        <Apellidos>García López</Apellidos>
+        <Telefono>987123456</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 45</Calle>
+          <Ciudad>Sevilla</Ciudad>
+          <CPostal>41001</CPostal>
+          <Provincia>Sevilla</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-01</FechaInclusion>
+        <Email>miguel.garcia@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1004</NumeroPedido>
+    <FechaCompra>2022-11-20</FechaCompra>
+    <FechaEntrega>2022-11-25</FechaEntrega>
+    <TotalFactura>599.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Fitbit Luxe</NombreProducto>
+      <Referencia>FTB006</Referencia>
+      <Precio>149.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Rodríguez Sánchez</Apellidos>
+        <Telefono>654987321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 89</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-10</FechaInclusion>
+        <Email>elena.rodriguez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1005</NumeroPedido>
+    <FechaCompra>2022-12-01</FechaCompra>
+    <FechaEntrega>2022-12-06</FechaEntrega>
+    <TotalFactura>1299.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Samsung Galaxy Z Fold 3</NombreProducto>
+      <Referencia>SMG005</Referencia>
+      <Precio>1799.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Martínez Pérez</Apellidos>
+        <Telefono>789123654</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 12</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-02-05</FechaInclusion>
+        <Email>pablo.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <!-- Pedidos no recurrentes -->
+  <Pedido>
+    <NumeroPedido>1006</NumeroPedido>
+    <FechaCompra>2022-10-10</FechaCompra>
+    <FechaEntrega>2022-10-15</FechaEntrega>
+    <TotalFactura>349.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Logitech G Pro X Superlight</NombreProducto>
+      <Referencia>LGT005</Referencia>
+      <Precio>149.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Carlos</Nombre>
+        <Apellidos>Fernández García</Apellidos>
+        <Telefono>654321987</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 67</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08003</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-15</FechaInclusion>
+        <Email>carlos.fernandez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1007</NumeroPedido>
+    <FechaCompra>2022-10-20</FechaCompra>
+    <FechaEntrega>2022-10-25</FechaEntrega>
+    <TotalFactura>999.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Sony PlayStation 5</NombreProducto>
+      <Referencia>SNY005</Referencia>
+      <Precio>499.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>María</Nombre>
+        <Apellidos>González López</Apellidos>
+        <Telefono>987321654</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 34</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-20</FechaInclusion>
+        <Email>maria.gonzalez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1008</NumeroPedido>
+    <FechaCompra>2022-11-01</FechaCompra>
+    <FechaEntrega>2022-11-06</FechaEntrega>
+    <TotalFactura>279.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Amazon Kindle Paperwhite</NombreProducto>
+      <Referencia>AMB005</Referencia>
+      <Precio>129.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>David</Nombre>
+        <Apellidos>López Rodríguez</Apellidos>
+        <Telefono>789654123</Telefono>
+        <Direccion>
+          <Calle>Paseo de la Castellana, 56</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28046</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2021-01-05</FechaInclusion>
+        <Email>david.lopez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1009</NumeroPedido>
+    <FechaCompra>2022-11-10</FechaCompra>
+    <FechaEntrega>2022-11-15</FechaEntrega>
+    <TotalFactura>229.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Instant Pot Duo Plus</NombreProducto>
+      <Referencia>INS001</Referencia>
+      <Precio>129.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Laura</Nombre>
+        <Apellidos>Martínez Ruiz</Apellidos>
+        <Telefono>654789123</Telefono>
+        <Direccion>
+          <Calle>Calle Mayor, 78</Calle>
+          <Ciudad>Barcelona</Ciudad>
+          <CPostal>08004</CPostal>
+          <Provincia>Barcelona</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-12-01</FechaInclusion>
+        <Email>laura.martinez@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+  <Pedido>
+    <NumeroPedido>1010</NumeroPedido>
+    <FechaCompra>2022-12-10</FechaCompra>
+    <FechaEntrega>2022-12-15</FechaEntrega>
+    <TotalFactura>99.00</TotalFactura>
+    <Producto>
+      <NombreProducto>Anker PowerCore 26800mAh</NombreProducto>
+      <Referencia>ANK003</Referencia>
+      <Precio>99.00</Precio>
+      <Unidades>1</Unidades>
+    </Producto>
+    <Clientes>
+      <DatosPersonales>
+        <Nombre>Alberto</Nombre>
+        <Apellidos>Ruiz Pérez</Apellidos>
+        <Telefono>987456321</Telefono>
+        <Direccion>
+          <Calle>Calle Gran Vía, 123</Calle>
+          <Ciudad>Madrid</Ciudad>
+          <CPostal>28013</CPostal>
+          <Provincia>Madrid</Provincia>
+        </Direccion>
+        <FechaInclusion>2020-11-10</FechaInclusion>
+        <Email>alberto.ruiz@example.com</Email>
+      </DatosPersonales>
+    </Clientes>
+  </Pedido>
+</Pedidos>
